@@ -1,6 +1,8 @@
 # Instagram Bot Tools
 
-
+How to install on Termux
+* pkg install nodejs
+* pkg install git
 * git clone https://github.com/auliaahmad165/IG.git
 * cd IG
 * npm install
