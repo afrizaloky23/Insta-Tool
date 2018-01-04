@@ -71,7 +71,7 @@ const Timeline = async function(session,count,cursor){
             await Timeline(session,count,getCursor);
         } else {
             console.log('[-] Repeat from scratch (Delay 60s)');
-            await delay(60000);
+            await delay(900000);
             count=0;
             await Timeline(session,count);
         }
